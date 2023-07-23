@@ -1,0 +1,81 @@
+body{
+    background-image: url("netflix-poster.jpg");
+    background-size: 1350px 650px;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    
+}
+
+.logo{
+    width: 30%;
+    justify-content: flex-end;
+}
+
+
+
+
+ .btn{
+    padding: 12px;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 19px;
+    border: none;
+    
+}
+.nav{
+    padding-left: 2vh;
+    padding-top: 5px;
+    padding-right: 5vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select{
+    margin-left: 43px;
+    padding: 30px;
+    margin-top: 12px;
+    background-color: black;
+    color: azure;
+    width: 110px;
+    height: 40px;
+    font-size: 19px;
+
+}
+.content{
+    color: #ffff;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 30%;
+
+}
+
+.content h1{
+    font-size: 50px;
+
+}
+.content h2{
+    font-size: 30px;
+}
+
+.email{
+    width: 12%;
+    height: fit-content;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.email input{
+    outline:none;
+    border: none;
+    padding: 5px 5px;
+}
+
+    
+
